@@ -900,32 +900,32 @@
     "images": [
         {
             "name": "Material.044_baseColor",
-            "uri": "GLTF_3_Coffeeman_images\\Material.044_baseColor.jpg",
+            "uri": "Material.044_baseColor.jpg",
             "mimeType": "image/jpeg"
         },
         {
             "name": "Material.003_baseColor",
-            "uri": "GLTF_3_Coffeeman_images\\Material.003_baseColor.jpg",
+            "uri": "Material.003_baseColor.jpg",
             "mimeType": "image/jpeg"
         },
         {
             "name": "Material.042_baseColor",
-            "uri": "GLTF_3_Coffeeman_images\\Material.042_baseColor.jpg",
+            "uri": "Material.042_baseColor.jpg",
             "mimeType": "image/jpeg"
         },
         {
             "name": "Material.037_baseColor",
-            "uri": "GLTF_3_Coffeeman_images\\Material.037_baseColor.jpg",
+            "uri": "Material.037_baseColor.jpg",
             "mimeType": "image/jpeg"
         },
         {
             "name": "composited_baseColor_opacity",
-            "uri": "GLTF_3_Coffeeman_images\\composited_baseColor_opacity.png",
+            "uri": "composited_baseColor_opacity.png",
             "mimeType": "image/png"
         },
         {
             "name": "composited_roughness",
-            "uri": "GLTF_3_Coffeeman_images\\composited_roughness.png",
+            "uri": "composited_roughness.png",
             "mimeType": "image/png"
         }
     ],
