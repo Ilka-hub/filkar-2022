@@ -1,6 +1,6 @@
-import {loadGLTF, loadVideo} from "https://cdn.jsdelivr.net/gh/Ilka-hub/filkar-2022@master/loader.js";
+import {loadGLTF, loadVideo} from "https://cdn.jsdelivr.net/gh/Ilka-hub/filkar-2022@3d8383d42d4814cbd29354320d2cbbbf5507fb26/loader.js";
 import {mockWithVideo} from 'https://cdn.jsdelivr.net/gh/Ilka-hub/filkar-2022@master/camera-mock.js';
-import {createChromaMaterial} from 'https://cdn.jsdelivr.net/gh/Ilka-hub/filkar-2022@master/chroma-video.js';
+import {createChromaMaterial} from 'https://cdn.jsdelivr.net/gh/Ilka-hub/filkar-2022@4b693afc5eb8be3807aa39458b037cede78871b8/chroma-video.js';
 
 const THREE = window.MINDAR.IMAGE.THREE;
 
