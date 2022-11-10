@@ -1,5 +1,5 @@
-import {GLTFLoader} from "./three.js-r132/examples/jsm/loaders/GLTFLoader.js";
-import * as THREE from "./three.js-r132/build/three.module.js";
+import {GLTFLoader} from "https://cdn.jsdelivr.net/gh/Ilka-hub/filkar-2022@master/GLTFLoader.js";
+import * as THREE from "https://cdn.jsdelivr.net/gh/Ilka-hub/filkar-2022@master/three.module.js";
 
 //const THREE = window.MINDAR.IMAGE? window.MINDAR.IMAGE.THREE: window.MINDAR.FACE.THREE;
 
