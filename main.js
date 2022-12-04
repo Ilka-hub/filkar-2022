@@ -1,4 +1,4 @@
-import {loadGLTF, loadVideo} from "https://cdn.jsdelivr.net/gh/Ilka-hub/filkar-2022@famibi-2022/loader.js";
+import {loadGLTF, loadVideo} from "https://cdn.jsdelivr.net/gh/Ilka-hub/filkar-2022@fd506373ffe51d70b2ea9ab0cbe96b53386a064e/loader.js";
 const THREE = window.MINDAR.IMAGE.THREE;
 
 document.addEventListener('DOMContentLoaded', () => {
