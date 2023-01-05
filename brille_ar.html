@@ -1,0 +1,19 @@
+
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.0/dist/mindar-face-aframe.prod.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.0/dist/mindar-face.prod.js"></script>
+      <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.0/dist/mindar-face-aframe.prod.js"></script>
+    </head>
+    <body>
+      <a-scene mindar-face embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+        <a-camera active="false" position="0 0 0"></a-camera>
+        <a-entity mindar-face-target="anchorIndex: 168">
+      <a-image src="https://cdn.jsdelivr.net/gh/Ilka-hub/filkar-2022@facetracking/brille_Moritz_2022_transparent.png" width="1" height="0.5"></a-image>
+        </a-entity>
+      </a-scene>
+    </body>
+  </html>
