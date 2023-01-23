@@ -1,0 +1,15 @@
+[
+	{
+		"AnSceneNodeSzene%201" : [
+			{
+				"name" : "relaxed-vlog-131746.mp3",
+				"start_frame" : "0",
+				"loop_count" : 11295
+			}
+		]
+	},
+	{},
+	{
+		"relaxed-vlog-131746.mp3" : "Sound0.MP3"
+	}
+]
