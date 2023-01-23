@@ -1,0 +1,659 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - b6c6386da714573e1c60e92e900169531bbd057d",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3",
+            "max": [
+                100.0,
+                -0.0,
+                0.0
+            ],
+            "min": [
+                0.0,
+                -100.0,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 6,
+            "type": "SCALAR",
+            "max": [
+                3.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3",
+            "max": [
+                100.0,
+                -0.0,
+                0.0
+            ],
+            "min": [
+                0.0,
+                -100.0,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5125,
+            "count": 6,
+            "type": "SCALAR",
+            "max": [
+                3.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 48,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 48,
+            "byteLength": 48,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 96,
+            "byteLength": 32,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 128,
+            "byteLength": 24,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 152,
+            "byteLength": 48,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 200,
+            "byteLength": 32,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 232,
+            "byteLength": 24,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 256,
+            "uri": "foodtruckD_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.010358735918998719,
+                "yfov": 0.6024156808853149,
+                "zfar": 569.73046875,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "base_opacity",
+            "uri": "foodtruckD_images\\base_opacity.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                }
+            },
+            "alphaMode": "MASK",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.8999999761581421
+                ]
+            },
+            "alphaMode": "BLEND",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "AnNode2",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "AnNode4",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "AnNode6",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "AnNode8",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "AnNode10",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "AnNode12",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "AnNode14",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "AnNode16",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "AnNode18",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "AnDummyNode",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 5
+                    },
+                    "indices": 6,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                145.75607299804688,
+                52.187049865722659,
+                167.3582000732422
+            ],
+            "rotation": [
+                -0.10768850892782211,
+                0.34831175208091738,
+                0.04031946137547493,
+                0.9302991032600403
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2
+            ],
+            "translation": [
+                19.523651123046876,
+                258.2901611328125,
+                20.31487464904785
+            ],
+            "scale": [
+                0.4995439946651459,
+                0.4995439946651459,
+                0.4995439946651459
+            ],
+            "name": "Scene_1"
+        },
+        {
+            "children": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21
+            ],
+            "name": "AnSceneNodeSzene%201"
+        },
+        {
+            "children": [
+                4
+            ],
+            "translation": [
+                -18.25,
+                -482.5,
+                0.0
+            ],
+            "name": "AnGraphicTween203"
+        },
+        {
+            "translation": [
+                -55.75,
+                34.5,
+                0.0
+            ],
+            "scale": [
+                1.1149829626083375,
+                0.6905189752578735,
+                1.0
+            ],
+            "mesh": 0,
+            "name": "AnNode2"
+        },
+        {
+            "children": [
+                6
+            ],
+            "translation": [
+                97.75,
+                -402.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "name": "AnGraphicTween204"
+        },
+        {
+            "translation": [
+                -55.75,
+                34.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "mesh": 1,
+            "name": "AnNode4"
+        },
+        {
+            "children": [
+                8
+            ],
+            "translation": [
+                207.75,
+                -326.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "name": "AnGraphicTween205"
+        },
+        {
+            "translation": [
+                -55.75,
+                34.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "mesh": 2,
+            "name": "AnNode6"
+        },
+        {
+            "children": [
+                10
+            ],
+            "translation": [
+                270.75,
+                -384.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "name": "AnGraphicTween206"
+        },
+        {
+            "translation": [
+                -55.75,
+                34.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "mesh": 3,
+            "name": "AnNode8"
+        },
+        {
+            "children": [
+                12
+            ],
+            "translation": [
+                380.75,
+                -425.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "name": "AnGraphicTween207"
+        },
+        {
+            "translation": [
+                -55.75,
+                34.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "mesh": 4,
+            "name": "AnNode10"
+        },
+        {
+            "children": [
+                14
+            ],
+            "translation": [
+                462.75,
+                -304.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "name": "AnGraphicTween208"
+        },
+        {
+            "translation": [
+                -55.75,
+                34.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "mesh": 5,
+            "name": "AnNode12"
+        },
+        {
+            "children": [
+                16
+            ],
+            "translation": [
+                599.75,
+                -380.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "name": "AnGraphicTween209"
+        },
+        {
+            "translation": [
+                -55.75,
+                34.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "mesh": 6,
+            "name": "AnNode14"
+        },
+        {
+            "children": [
+                18
+            ],
+            "translation": [
+                707.75,
+                -368.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "name": "AnGraphicTween2010"
+        },
+        {
+            "translation": [
+                -55.75,
+                34.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "mesh": 7,
+            "name": "AnNode16"
+        },
+        {
+            "children": [
+                20
+            ],
+            "translation": [
+                824.75,
+                -450.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "name": "AnGraphicTween2011"
+        },
+        {
+            "translation": [
+                -55.75,
+                34.5,
+                0.0
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "mesh": 8,
+            "name": "AnNode18"
+        },
+        {
+            "scale": [
+                0.0010000000474974514,
+                0.0010000000474974514,
+                0.0010000000474974514
+            ],
+            "mesh": 9,
+            "name": "AnDummyNode"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "base_opacity",
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "scene": 0
+}
