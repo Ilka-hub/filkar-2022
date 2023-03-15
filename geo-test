@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AR.js Geolocation-based Example without Marker</title>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js'></script>
+    <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta aframe-injected="" name="mobile-web-app-capable" content="yes">
+      <meta aframe-injected="" name="theme-color" content="black">
+
+  </head>
+  <body style="margin: 0;">
+    <a-scene embedded arjs>
+
+        <a-camera gps-new-camera='gpsMinDistance: 5' position="0 0 0" look-controls="enabled: false" camera="" rotation=""
+              wasd-controls="" far="50" fov="180" near="0.01" zoom="-0.0"></a-camera>
+
+      <a-entity
+        gps-new-camera
+        rotation-reader
+        gps-projected-camera-target
+        longitude="9.68052"
+        latitude="53.62283"
+        altitude="16"
+        distance="10"
+      ></a-entity>
+
+      <a-entity
+        geometry="primitive: box"
+        material="color: red"
+        scale="0.1 0.1 0.1"
+        position="0 0.05 -0.1"
+      ></a-entity>
+
+      <a-entity
+        geometry="primitive: sphere"
+        material="color: blue"
+        scale="0.05 0.05 0.05"
+        position="0 0.15 -0.1"
+      ></a-entity>
+
+    </a-scene>
+  </body>
+</html>
